@@ -66,7 +66,7 @@ def button_divide():
 
 
 #define Buttons
-button1= Button(root, text='1', padx=40, pady= 20, command=lambda:button_click(1))
+button1= Button(root, text='1', padx=40, pady= 20, command=lambda:button_click(1)) #lambda la ham vo danh voi cu phap lambda tham_so: bieu_thuc
 button2= Button(root, text='2', padx=40, pady= 20, command=lambda:button_click(2))
 button3= Button(root, text='3', padx=40, pady= 20, command=lambda:button_click(3))
 button4= Button(root, text='4', padx=40, pady= 20, command=lambda:button_click(4))
